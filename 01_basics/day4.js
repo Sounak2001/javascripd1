@@ -1,0 +1,13 @@
+const game=new String("   sounak     ")
+console.log(game)
+console.log(game.toUpperCase())
+console.log(game.charAt(3))
+const newString=game.substring(0, 4)
+const newStrings=game.slice(-7, 4)
+const news=game.trim(0, 4)
+console.log(newString,newStrings)
+console.log(news.trim())
+const url="https.//sounak@._co_m"
+console.log(url.replace('@','_'))
+console.log(url.split('_'))
+console.log(url.small('_'))
